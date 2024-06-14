@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+h2{
+    font-size: xx-large;
+    color: #011627;
+    
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #7E8987;
+}
+
+.container{
+    background-color: #FFFCF9;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    min-height: 50vh;
+    min-width: 30vw;
+}
+
+form{
+    
+    margin: 2rem 0 1rem 0;
+}
+
+form select, button, input {
+    width: 100%;
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+form select{
+    border: none ;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.select-country{
+    display: flex;
+    border: 1px solid silver;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+}
+
+select:focus {
+    outline: none;
+    border: none;
+}
+
+.select-country img{
+    max-width: 3rem;
+    padding: 0.5rem;
+}
+
+
+i{
+    font-size: 40px;
+    color: #011627
+}
+
+
+.resultMessage{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+.submitButton{
+    background-color: #011627;
+    color: #FFFCF9;
+    padding: 1rem;
+    font-weight: bolder;
+    text-shadow: #7E8987;
+}
+
+
+@media (max-width:1100px){
+    i{
+        font-size: 30px;
+    }
+
+    .select-country{
+        display: flex;
+        border: 1px solid silver;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.75rem;
+        width: 20vw;
+    }
+
+
+}
