@@ -29,4 +29,4 @@ const countryList = {
   SGD: "SG",
   THB: "TH",
   ZAR: "ZA"
-};
+}; 
