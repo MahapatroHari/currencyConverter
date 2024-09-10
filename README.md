@@ -22,8 +22,8 @@ To run the project locally, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/MahapatroHari/currencyConverter.git
+   cd currencyConverter
    ```
 
 2. **Open the Project:**
