@@ -1,5 +1,7 @@
 # Currency Converter
 
+[Live Demo](https://rateconvert.netlify.app/)
+
 The Currency Converter is a simple web application built with HTML, CSS, and JavaScript. It provides real-time currency conversion using live data fetched from an external API.
 
 ## Features
